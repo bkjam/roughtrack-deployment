@@ -22,10 +22,11 @@ RoughTrack consists of the following components:
    - State Management: [zustand](https://zustand.docs.pmnd.rs/getting-started/introduction)
    - Utils: [date-fns (date utility library)](https://date-fns.org/)
 2. Backend (Fastify)
-   - Web Framework: [fastify)](https://fastify.dev/)
+   - Web Framework: [fastify](https://fastify.dev/)
    - Datebase Integration: [prisma (ORM toolkit)](https://www.prisma.io/)
 3. Database
    - [Postgresql](https://www.postgresql.org/)
+   - [Sqlite](https://sqlite.org/)
 
 ### Image Tag Versions
 
