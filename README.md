@@ -2,6 +2,12 @@
 
 RoughTrack is a prototype for creating **Now-Next-Later roadmaps** helping teams prioritize tasks and communicate priorities effectively with stakeholders.
 
+- [Support](#support)
+- [Tech Stack](#tech-stack)
+- [Image Tag Versions](#image-tag-versions)
+- [Self Hosting](#self-hosting)
+- [License & Disclaimer](#license--disclaimer)
+
 ## Support
 
 If you encounter any issues or have questions about RoughTrack, you can create an issue on our GitHub repository. When submitting an issue, please provide a clear description of the problem, steps to reproduce it, and any relevant screenshots or error messages.
@@ -73,6 +79,14 @@ By default, the main versions comes integrated with **Postgreqsql**, but you can
 
    To be updated...
 
-## Disclaimer
+## License & Disclaimer
 
-RoughTrack is provided as a prototype for self-hosting. By using it, you acknowledge that you are responsible for managing your own data, backups, and security. The developers are not liable for any data loss, security breaches, or other issues arising from self-hosting.
+RoughTrack is a proprietary software prototype. You are free to use and self-host it, but the source code is not open for modification or redistribution.
+
+### Dependencies & Base Images:
+
+RoughTrack is built on top of open-source software, including the Node.js Docker image, PostgreSQL, SQLite, and various libraries (React, Fastify, Prisma, etc.). Each dependency is subject to its own license (MIT, Apache 2.0, BSD, or similar). By using RoughTrack, you agree to comply with all applicable licenses of included software.
+
+### Disclaimer:
+
+This software is provided “as-is” without warranties of any kind. The developer is not responsible for any data loss, security issues, or other damages arising from the use of RoughTrack, including self-hosted deployments. Use at your own risk.
