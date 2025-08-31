@@ -83,10 +83,10 @@ By default, the main versions comes integrated with **Postgreqsql**, but you can
 
 RoughTrack is a proprietary software prototype. You are free to use and self-host it, but the source code is not open for modification or redistribution.
 
-### Dependencies & Base Images:
+### Dependencies & Base Images
 
 RoughTrack is built on top of open-source software, including the Node.js Docker image, PostgreSQL, SQLite, and various libraries (React, Fastify, Prisma, etc.). Each dependency is subject to its own license (MIT, Apache 2.0, BSD, or similar). By using RoughTrack, you agree to comply with all applicable licenses of included software.
 
-### Disclaimer:
+### Disclaimer
 
 This software is provided “as-is” without warranties of any kind. The developer is not responsible for any data loss, security issues, or other damages arising from the use of RoughTrack, including self-hosted deployments. Use at your own risk.
