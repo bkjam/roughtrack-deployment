@@ -46,7 +46,11 @@ By default, the main versions comes integrated with **Postgreqsql**, but you can
 
 1. using **docker compose**
 
-   Using the sample [docker-compose.yml](./docker-compose.yml) file, run the command `docker compose -f docker-compose.yml up -d`
+   Using the sample [docker-compose.yml](./docker-compose.yml) file, run the command:
+
+   ```bash
+   docker compose -f docker-compose.yml up -d
+   ```
 
 2. using **helm chart**
 
@@ -58,7 +62,11 @@ By default, the main versions comes integrated with **Postgreqsql**, but you can
 
 1. using **docker compose**
 
-   Using the sample [docker-compose-lite.yml](./docker-compose-lite.yml) file, run the command `docker compose -f docker-compose-lite.yml up -d`
+   Using the sample [docker-compose-lite.yml](./docker-compose-lite.yml) file, run the command:
+
+   ```bash
+   docker compose -f docker-compose-lite.yml up -d
+   ```
 
 2. using **helm chart**
 
