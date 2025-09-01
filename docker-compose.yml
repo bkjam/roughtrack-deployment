@@ -19,24 +19,24 @@ services:
     restart: unless-stopped
 
   # Postgresql Admin
-  pgadmin:
-    container_name: pgadmin_container
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@example.com
-      PGADMIN_DEFAULT_PASSWORD: password
-    volumes:
-      - pgadmin:/root/.pgadmin
-    ports:
-      - "${PGADMIN_PORT:-5050}:80"
-    networks:
-      - roughtrack_net
-    restart: unless-stopped
+  # pgadmin:
+  #   container_name: pgadmin_container
+  #   image: dpage/pgadmin4
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: admin@example.com
+  #     PGADMIN_DEFAULT_PASSWORD: password
+  #   volumes:
+  #     - pgadmin:/root/.pgadmin
+  #   ports:
+  #     - "${PGADMIN_PORT:-5050}:80"
+  #   networks:
+  #     - roughtrack_net
+  #   restart: unless-stopped
 
   # Main App
   roughtrack:
     container_name: roughtrack
-    image: bkjam/roughtrack:latest
+    image: bkjam/roughtrack:1.1.1
     environment:
       DATABASE_URL: "postgresql://admin:password@postgres:5432/mydb?schema=public"
     ports:
@@ -53,4 +53,4 @@ networks:
 
 volumes:
   postgres:
-  pgadmin:
+  # pgadmin:

@@ -41,7 +41,7 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 | Version        | Variants   | Description         |
 | -------------- | ---------- | ------------------- |
 | 1.0.0          |            | Prototype with bugs |
-| 1.1.0 & latest | 1.1.0-lite | Completed Prototype |
+| 1.1.1 & latest | 1.1.1-lite | Completed Prototype |
 
 ## Self Hosting
 
