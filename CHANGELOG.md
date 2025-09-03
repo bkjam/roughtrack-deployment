@@ -5,6 +5,24 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.3.0] - 2025-09-04
+
+**Added**
+
+- Sort button in Kanban header with visible sort field and direction.
+- New assessment status: **Not Required**.
+- Task card menu option to view full task details in a modal.
+
+**Changed / Improved**
+
+- Task cards now display full priority rationale and description (removed 3-line clamp).
+- Removed the **Compacted View** option from task display.
+
+**Fixed**
+
+- Markdown bullets not rendering in task card descriptions.
+- Frontend cache issue where updating a task card didn’t refresh the React Query c
+
 ## [1.2.0] - 2025-09-02
 
 **Added**

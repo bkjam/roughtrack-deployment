@@ -40,7 +40,7 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 
 | Version        | Variants   | Description         |
 | -------------- | ---------- | ------------------- |
-| 1.2.0 & latest | 1.2.0-lite | Completed Prototype |
+| 1.3.0 & latest | 1.3.0-lite | Completed Prototype |
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
