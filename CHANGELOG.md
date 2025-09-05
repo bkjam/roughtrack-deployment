@@ -5,6 +5,16 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.4.0] - 2025-09-05
+
+**Added**
+
+- `managedBy` field to Roadmap model to indicate owner / manager.
+
+**Changed / Improved**
+
+- Restyled **Sort button** with clearer stacked layout.
+
 ## [1.3.0] - 2025-09-04
 
 **Added**
