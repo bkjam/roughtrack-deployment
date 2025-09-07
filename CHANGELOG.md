@@ -5,6 +5,30 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.5.0] - 2025-09-04
+
+🔑 **Key Update**: Roadmap now supports **sharable links via URL state** for filters, views, and tasks.
+
+**Added**
+
+- Confirm **Delete Task** dialog to prevent accidental deletions.
+- Confirm **Close Task** dialog for safer task management.
+- Brought back **Compact View** option.
+
+**Changed / Improved**
+
+- Switched to **URL state** for:
+  - Task filtering and sorting.
+  - Deck view (Now, Next, Later).
+  - Viewing a specific task.
+  - Changing roadmap view (Board, Deck, History).
+- Description and Priority Rationale on Task Cards are now line-clamped to 3 lines for better readability.
+
+**Fixed**
+
+- Issue Link button now hidden when no link is provided.
+- Fixed bug where **Roadmap** and **Task** could not be deleted if subtasks existed.
+
 ## [1.4.0] - 2025-09-05
 
 **Added**
@@ -79,8 +103,6 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 ### Fixed
 
 - **Drag & Drop Stability**: Fixed crashes caused by excessive re-renders.
-
----
 
 ## [1.0.0] – First Prototype – 2025-08-27
 
