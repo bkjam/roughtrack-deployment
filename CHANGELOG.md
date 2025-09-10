@@ -5,6 +5,27 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.6.0] - 2025-09-04
+
+**Added**
+
+- Introduced **Timeline View** for visualizing tasks over time.
+- Task titles are now clickable to **open task details**.
+- Roadmap titles are now clickable to **open the roadmap**.
+- Added **URL state support** for Docs page.
+
+**Changed / Improved**
+
+- Kanban now supports **global collapsed view**.
+- Improved **React re-rendering performance**.
+- Now/Next/Later columns can be **edited directly**.
+- Replaced **Expected Window** with **Target Start Date** and **Target End Date** for tasks.
+- Fixed **sorting issues** in task lists.
+
+**Fixed**
+
+- (Sorting bug is included in Changed/Improved above.)
+
 ## [1.5.0] - 2025-09-04
 
 🔑 **Key Update**: Roadmap now supports **sharable links via URL state** for filters, views, and tasks.
