@@ -104,6 +104,8 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ## [1.1.0] – 2025-09-01
 
+🔑 **Key Update**: Roadmap now supports **Markdown** for better readability
+
 ### Added
 
 - **Documentation Page**: Explains how to use RoughTrack.
