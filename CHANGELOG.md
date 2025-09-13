@@ -5,7 +5,20 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.6.1] - 2025-09-04
+
+**Added**
+
+- **Reopen Task** feature in History table.
+
+**Changed / Improved**
+
+- Fixed **CSS styling** for Timeline View.
+- Fixed **image aspect ratio** for Workflow Documentation page.
+
 ## [1.6.0] - 2025-09-04
+
+🔑 **Key Update**: Introduce **Timeline** view for easier communications to stakeholder on upcoming roadmap plans
 
 **Added**
 

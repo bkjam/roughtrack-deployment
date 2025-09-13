@@ -40,7 +40,7 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 
 | Version        | Variants   | Description         |
 | -------------- | ---------- | ------------------- |
-| 1.6.0 & latest | 1.6.0-lite | Completed Prototype |
+| 1.6.1 & latest | 1.6.1-lite | Completed Prototype |
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
