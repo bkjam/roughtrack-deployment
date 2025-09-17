@@ -5,6 +5,14 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.7.0] - 2025-09-04
+
+🔑 **Key Update**: Introduced **Timeline View** for completed/closed tasks, making it easier to communicate progress to stakeholders.
+
+**Added**
+
+- **Vertical Timeline View** grouped by months for **completed/closed tasks**.
+
 ## [1.6.1] - 2025-09-04
 
 **Added**
@@ -18,7 +26,7 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ## [1.6.0] - 2025-09-04
 
-🔑 **Key Update**: Introduce **Timeline** view for easier communications to stakeholder on upcoming roadmap plans
+🔑 **Key Update**: Introduced **Timeline View** for open tasks, making it easier to communicate upcoming roadmap plans to stakeholders.
 
 **Added**
 
