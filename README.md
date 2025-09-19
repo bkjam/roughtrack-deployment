@@ -38,9 +38,9 @@ RoughTrack consists of the following components:
 
 The currently deployed versions are available on [Docker Hub](https://hub.docker.com/r/bkjam/roughtrack). The main version requires an external PostgreSQL database to be deployed, while the **-lite** version includes a built-in SQLite database inside the Docker container, so no external database setup is needed. All data is stored directly within the container.
 
-| Version        | Variants   | Description                                                                                       |
-| -------------- | ---------- | ------------------------------------------------------------------------------------------------- |
-| 1.7.1 & latest | 1.7.1-lite | Prototype release for creating and sharing open roadmaps, with editing protected by password lock |
+Below are the most updated versions that you should use for minimal bugs and latest features.
+
+- **1.7.1** & **1.7.1-lite**: Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
