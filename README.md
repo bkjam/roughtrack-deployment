@@ -38,9 +38,9 @@ RoughTrack consists of the following components:
 
 The currently deployed versions are available on [Docker Hub](https://hub.docker.com/r/bkjam/roughtrack). The main version requires an external PostgreSQL database to be deployed, while the **-lite** version includes a built-in SQLite database inside the Docker container, so no external database setup is needed. All data is stored directly within the container.
 
-| Version        | Variants   | Description         |
-| -------------- | ---------- | ------------------- |
-| 1.7.0 & latest | 1.7.0-lite | Completed Prototype |
+| Version        | Variants   | Description                                                                                       |
+| -------------- | ---------- | ------------------------------------------------------------------------------------------------- |
+| 1.7.1 & latest | 1.7.1-lite | Prototype release for creating and sharing open roadmaps, with editing protected by password lock |
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
@@ -48,7 +48,7 @@ Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
 By default, the main versions comes integrated with **Postgreqsql**, but you can also use the **-lite** version which uses **sqlite**.
 
-### RoughTrack + Postposgql
+### RoughTrack + Postgresql
 
 > Note that for the `DATABASE_URL`, database name must be **mydb** and schema must be **public**
 

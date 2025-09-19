@@ -5,7 +5,15 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
-## [1.7.0] - 2025-09-04
+## [1.7.1] - 2025-09-20
+
+**Added / Improved**
+
+- **Edit button** in Task View modal for quick edits.
+- Changed **collapsed/expanded button** in Board view from per-column to **global toggle**.
+- Fixed **styling issues** with Timeline bars and History Timeline.
+
+## [1.7.0] - 2025-09-18
 
 🔑 **Key Update**: Introduced **Timeline View** for completed/closed tasks, making it easier to communicate progress to stakeholders.
 
@@ -13,7 +21,7 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 - **Vertical Timeline View** grouped by months for **completed/closed tasks**.
 
-## [1.6.1] - 2025-09-04
+## [1.6.1] - 2025-09-13
 
 **Added**
 
@@ -24,7 +32,7 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - Fixed **CSS styling** for Timeline View.
 - Fixed **image aspect ratio** for Workflow Documentation page.
 
-## [1.6.0] - 2025-09-04
+## [1.6.0] - 2025-09-11
 
 🔑 **Key Update**: Introduced **Timeline View** for open tasks, making it easier to communicate upcoming roadmap plans to stakeholders.
 
@@ -41,13 +49,12 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - Improved **React re-rendering performance**.
 - Now/Next/Later columns can be **edited directly**.
 - Replaced **Expected Window** with **Target Start Date** and **Target End Date** for tasks.
-- Fixed **sorting issues** in task lists.
 
 **Fixed**
 
-- (Sorting bug is included in Changed/Improved above.)
+- Fixed **sorting issues** in task lists.
 
-## [1.5.0] - 2025-09-04
+## [1.5.0] - 2025-09-07
 
 🔑 **Key Update**: Roadmap now supports **sharable links via URL state** for filters, views, and tasks.
 
