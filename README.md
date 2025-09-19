@@ -3,10 +3,10 @@
 RoughTrack is a prototype for creating **Now-Next-Later roadmaps** helping teams prioritize tasks and communicate priorities effectively with stakeholders.
 
 - [Support](#support)
-- [Tech Stack](#tech-stack)
 - [Image Tag Versions](#image-tag-versions)
 - [Self Hosting](#self-hosting)
 - [License & Disclaimer](#license--disclaimer)
+- [Source Codes](https://github.com/bkjam/RoughTrack)
 
 ## Support
 
@@ -14,27 +14,7 @@ If you encounter any issues or have questions about RoughTrack, you can create a
 
 Since RoughTrack is a prototype, we may not be able to respond immediately, but your report will help us improve the project for future versions.
 
-## Overview
-
-### Tech Stack
-
-RoughTrack consists of the following components:
-
-1. Frontend (React.js)
-   - UI & Components: [tailwindcss (styling)](https://tailwindcss.com/) & [lucide-react (icons)](https://lucide.dev/guide/packages/lucide-react) & [react-color (color picker)](https://casesandberg.github.io/react-color/) & [react-markdown](https://github.com/remarkjs/react-markdown) & [react-hot-toast (notifications)](https://react-hot-toast.com/) & [ag-grid-react (data grids)](https://www.ag-grid.com/)
-   - Data & Forms: [axios (http client)](https://axios-http.com/docs/intro) & [react-hook-form (form library)](https://react-hook-form.com/) & [@tanstack/react-query v5 (data fetch & cache)](https://tanstack.com/query/latest)
-   - Drag & Drop: [@dnd-kit](https://dndkit.com/)
-   - Routing: [react-router v7 (routing library)](https://reactrouter.com/)
-   - State Management: [zustand](https://zustand.docs.pmnd.rs/getting-started/introduction)
-   - Utils: [date-fns (date utility library)](https://date-fns.org/)
-2. Backend (Fastify)
-   - Web Framework: [fastify](https://fastify.dev/)
-   - Datebase Integration: [prisma (ORM toolkit)](https://www.prisma.io/)
-3. Database
-   - [Postgresql](https://www.postgresql.org/)
-   - [Sqlite](https://sqlite.org/)
-
-### Image Tag Versions
+## Image Tag Versions
 
 The currently deployed versions are available on [Docker Hub](https://hub.docker.com/r/bkjam/roughtrack). The main version requires an external PostgreSQL database to be deployed, while the **-lite** version includes a built-in SQLite database inside the Docker container, so no external database setup is needed. All data is stored directly within the container.
 
