@@ -6,7 +6,7 @@ RoughTrack is a prototype for creating **Now-Next-Later roadmaps** helping teams
 - [Image Tag Versions](#image-tag-versions)
 - [Self Hosting](#self-hosting)
 - [License & Disclaimer](#license--disclaimer)
-- [Source Codes](https://github.com/bkjam/RoughTrack)
+- [Source Code](https://github.com/bkjam/RoughTrack)
 
 ## Support
 

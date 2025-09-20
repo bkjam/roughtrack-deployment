@@ -12,6 +12,8 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - **Edit button** in Task View modal for quick edits.
 - Changed **collapsed/expanded button** in Board view from per-column to **global toggle**.
 - Fixed **styling issues** with Timeline bars and History Timeline.
+- Added **Move Task** option in task card dropdown menu.
+- Added **Error Boundary** to handle unexpected crashes.
 
 ## [1.7.0] - 2025-09-18
 
