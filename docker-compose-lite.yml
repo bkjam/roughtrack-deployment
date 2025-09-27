@@ -3,7 +3,7 @@ version: "3.9"
 services:
   roughtrack:
     container_name: roughtrack
-    image: bkjam/roughtrack:1.7.1-lite
+    image: bkjam/roughtrack:1.8.0-lite
     environment:
       DATABASE_URL: "file:/app/prisma/sql.db"
     ports:

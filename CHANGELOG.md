@@ -5,6 +5,24 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.8.0] - 2025-09-27
+
+🔑 **Key Update**: Introduced **Rank View** for easier prioritization.
+
+**Added**
+
+- Introduced **Rank View** – new workflow for updating and managing task priority.
+
+**Changed / Improved**
+
+- Grouped roadmap views:
+  - **Planning** → Board, Deck, Rank
+  - **Progress** → Timeline, History
+
+**Fixed**
+
+- Priority icon bug where **High** and **Critical** icons were swapped.
+
 ## [1.7.1] - 2025-09-20
 
 **Added / Improved**
