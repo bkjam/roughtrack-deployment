@@ -5,6 +5,26 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.9.0] - 2025-09-30
+
+🔑 **Key Update**: Added **History Completed View** and improved Timeline and Deck UX for better task visibility and filtering.
+
+**Added**
+
+- **ALL filter** in Deck view for easier task filtering.
+- New **History Completed View** to track finished tasks.
+- **Resizable input fields** for Description, Priority Rationale, and Notes.
+
+**Changed / Improved**
+
+- Added **priority border** to task cards for a cleaner look.
+- Timeline bars now display the **title in 2 lines** for more detail in a compact bar.
+
+**Fixed**
+
+- Styling issue with **Roadmap View Group dropdown**.
+- **Rank View sorting** issue.
+
 ## [1.8.0] - 2025-09-27
 
 🔑 **Key Update**: Introduced **Rank View** for easier prioritization.

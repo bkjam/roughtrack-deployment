@@ -20,7 +20,7 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 
 Below are the most updated versions that you should use for minimal bugs and latest features.
 
-- **1.8.0** & **1.8.0-lite**: Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
+- **1.9.0** & **1.9.0-lite**: Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
