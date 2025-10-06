@@ -5,6 +5,23 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.10.0] - 2025-10-05
+
+🔑 **Key Update**: Introduced **Task Categories** and enhanced **Timeline** and **Rank** views with richer filtering and grouping options.
+
+**Added**
+
+- **Task Categories** for better organization and grouping.
+- **Closed completed tasks** now visible in Timeline view.
+- **Filters** for Rank view.
+- **Multi-value Tag & Category filters** for advanced filtering.
+- **Group by Category** option in Timeline view.
+
+**Changed / Improved**
+
+- Enhanced **Task Modal inputs** for smoother editing and clarity.
+- **Now / Next / Later** labels on task cards for clearer context.
+
 ## [1.9.0] - 2025-09-30
 
 🔑 **Key Update**: Added **History Completed View** and improved Timeline and Deck UX for better task visibility and filtering.
