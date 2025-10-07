@@ -5,6 +5,46 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.12.0] - 2025-10-07
+
+🔑 **Key Update**: Enhanced category and timeline UX with better filtering, navigation, and task preview.
+
+**Added**
+
+- **React-Select** for searching through categories.
+- Tags displayed on **Task Preview**.
+- Close and Delete task options in **View Task modal**.
+
+**Changed / Improved**
+
+- Buttons updated to **icon buttons** for cleaner UI.
+- Category view renamed to **Review View**.
+- Color picker updated for category colors.
+- Navigate from Timeline categories to **Review view**.
+
+**Fixed**
+
+- Category view scrolling bug.
+- Rank view width not taking full space.
+- Filtering Timeline now correctly filters completed tasks.
+
+## [1.11.0] - 2025-10-06
+
+🔑 **Key Update**: Improved task creation and visual feedback for incomplete tasks.
+
+**Added**
+
+- **Now / Next / Later** option in Create Task form.
+- Validation **red highlight** for task cards with missing required fields.
+
+**Changed / Improved**
+
+- Roadmap **Delete** and **Edit** actions moved to **Settings button**.
+
+**Fixed**
+
+- Markdown rendering error in Task Card display.
+
 ## [1.10.0] - 2025-10-05
 
 🔑 **Key Update**: Introduced **Task Categories** and enhanced **Timeline** and **Rank** views with richer filtering and grouping options.
