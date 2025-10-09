@@ -5,6 +5,7 @@ RoughTrack is a prototype for creating **Now-Next-Later roadmaps** helping teams
 - [Support](#support)
 - [Image Tag Versions](#image-tag-versions)
 - [Self Hosting](#self-hosting)
+- [Extra Features - Reset Roadmap Password](#reset-roadmap-password)
 - [License & Disclaimer](#license--disclaimer)
 - [Source Code](https://github.com/bkjam/RoughTrack)
 
@@ -20,7 +21,7 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 
 Below are the most updated versions that you should use for minimal bugs and latest features.
 
-- **1.12.0** & **1.12.0-lite**: Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
+- **1.14.0** & **1.14.0-lite**: Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
@@ -59,6 +60,24 @@ By default, the main versions comes integrated with **Postgreqsql**, but you can
 2. using **helm chart**
 
    To be updated...
+
+## Extra Features
+
+### Reset Roadmap Password
+
+The Dockerized version of Rough Track is a prototype, so password locking for editing is implemented with simplicity in mind. If a user forgets their roadmap’s password, the only way to reset it is by sending an API request to the web server using the administrator password configured in the `.env` file at server startup.
+
+```bash
+curl -X POST localhost:8080/api/v1/admin/resetRoadmapPassword \
+    -H "Content-Type: application/json" \
+    -d '{"roadmapId": "4", "newPassword": "test", "adminPassword": "test"}'
+```
+
+**Notes**:
+
+- Replace "your-admin-password" with the actual admin password set in your .env.
+- This request will update the roadmap’s password and return the roadmap metadata (ID, title, created/updated timestamps).
+- Ensure the server is running and the endpoint is accessible over the network.
 
 ## License & Disclaimer
 

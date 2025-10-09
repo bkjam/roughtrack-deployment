@@ -5,6 +5,36 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [0.14.0] - 2025-10-10
+
+🔑 **Key Update**: Added password reset support.
+
+**Added**
+
+- **Reset roadmap password** feature for easier admin recovery.
+
+**Changed / Improved**
+
+- Timeline now uses **start date** instead of _target start date_ when available.
+- Removed **left border** from timeline task bars for a cleaner look.
+- **Task menu** now always visible in preview mode (no longer requires hover).
+
+## [0.13.0] - 2025-10-09
+
+🔑 **Key Update**: Major improvements to Timeline and Category views for better clarity and navigation.
+
+**Added**
+
+- More detailed **Category view**, showing unique details for _Now_, _Next_, _Later_, and _Completed_ tasks.
+- **Delete** and **Close Task** buttons in View/Edit Task modal.
+- Option to select **0–3 years** of completed tasks in Timeline view.
+
+**Changed / Improved**
+
+- Timeline bars now use **category colors** for better visual grouping.
+- **View Task modal** replaced with a **side panel preview** in Timeline view.
+- Timeline view updated with **more accurate bar lengths** and **adjustable month width**.
+
 ## [1.12.0] - 2025-10-07
 
 🔑 **Key Update**: Enhanced category and timeline UX with better filtering, navigation, and task preview.
