@@ -5,6 +5,12 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [0.14.1 & 0.14.2] - 2025-10-13
+
+- Minor bug fixes
+- Clean up syling
+- Clean up documentation
+
 ## [0.14.0] - 2025-10-10
 
 🔑 **Key Update**: Added password reset support.
