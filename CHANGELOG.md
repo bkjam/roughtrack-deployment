@@ -5,6 +5,21 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [0.15.0] - 2025-10-11
+
+🔑 **Key Update**: Enhanced timeline editing and improved timeline display accuracy.
+
+**Added**
+
+- **Move Modal** for updating Start, Target Start, and Target End dates.
+- Made **Priority Rationale** and **Request By** fields optional in task form.
+
+**Fixed**
+
+- Timeline bars not reaching the end of the month when months have more than 4 weeks.
+- Timeline misalignment caused by horizontal scrollbars.
+- Timeline header missing when no visible tasks are found after applying filters.
+
 ## [0.14.1 & 0.14.2] - 2025-10-13
 
 - Minor bug fixes
