@@ -5,6 +5,18 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [0.16.0] - 2025-10-12
+
+**Changed / Improved**
+
+- **Collapsed/Expanded task state** in Board and Deck views now tracked separately.
+- Updated **Add Task form** format for better usability.
+
+**Fixed**
+
+- URL state for Timeline view now correctly includes **taskId**.
+- Fixed bugs with **Category inputs**.
+
 ## [0.15.0] - 2025-10-11
 
 🔑 **Key Update**: Enhanced timeline editing and improved timeline display accuracy.
