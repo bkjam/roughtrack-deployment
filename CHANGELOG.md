@@ -5,6 +5,15 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.17.0] - 2025-10-21
+
+🔑 **Key Update**: Enhanced task cards with visual improvements.
+
+**Added / Improved**
+
+- **Gradient task bars** for better visual distinction.
+- Added RoughTrack **logo**
+
 ## [0.16.0] - 2025-10-12
 
 **Changed / Improved**
