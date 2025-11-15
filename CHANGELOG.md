@@ -5,6 +5,27 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [0.18.0] - 2025-11-15
+
+🔑 **Key Update**: Group by Assignee,Tags,Priority
+
+**Added**
+
+- Added new **assignee** field.
+- Added new **List view**.
+- Added **group by Assignee, Tags, and Priority** (in addition to Category) for Deck, Timeline, and List views.
+
+**Changed**
+
+- Moved **Rank view** and **Board view** into Beta groups.
+
+## [1.17.1] - 2025-10-31
+
+**Fixed**
+
+- Fix bug where timeline constantly resets to today's date after any action.
+- Fix bug where tasks were not updated after updating or deleting categories.
+
 ## [1.17.0] - 2025-10-21
 
 🔑 **Key Update**: Enhanced task cards with visual improvements.
@@ -14,7 +35,7 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - **Gradient task bars** for better visual distinction.
 - Added RoughTrack **logo**
 
-## [0.16.0] - 2025-10-12
+## [1.16.0] - 2025-10-12
 
 **Changed / Improved**
 
@@ -26,7 +47,7 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - URL state for Timeline view now correctly includes **taskId**.
 - Fixed bugs with **Category inputs**.
 
-## [0.15.0] - 2025-10-11
+## [1.15.0] - 2025-10-11
 
 🔑 **Key Update**: Enhanced timeline editing and improved timeline display accuracy.
 
@@ -41,13 +62,13 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - Timeline misalignment caused by horizontal scrollbars.
 - Timeline header missing when no visible tasks are found after applying filters.
 
-## [0.14.1 & 0.14.2] - 2025-10-13
+## [1.14.1 & 1.14.2] - 2025-10-13
 
 - Minor bug fixes
 - Clean up syling
 - Clean up documentation
 
-## [0.14.0] - 2025-10-10
+## [1.14.0] - 2025-10-10
 
 🔑 **Key Update**: Added password reset support.
 
@@ -61,7 +82,7 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - Removed **left border** from timeline task bars for a cleaner look.
 - **Task menu** now always visible in preview mode (no longer requires hover).
 
-## [0.13.0] - 2025-10-09
+## [1.13.0] - 2025-10-09
 
 🔑 **Key Update**: Major improvements to Timeline and Category views for better clarity and navigation.
 

@@ -1,4 +1,4 @@
-## Rough Track
+## Rough Track (Self Hosting)
 
 RoughTrack is a prototype for creating **Now-Next-Later roadmaps** helping teams prioritize tasks and communicate priorities effectively with stakeholders.
 
@@ -21,7 +21,7 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 
 Below are the most updated versions that you should use for minimal bugs and latest features.
 
-- **1.17.0** & **1.17.0-lite**: Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
+- **1.18.0** & **1.18.0-lite**: Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
