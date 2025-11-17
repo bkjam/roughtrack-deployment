@@ -5,7 +5,17 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
-## [0.18.0] - 2025-11-15
+## [1.19.0] - 2025-11-17
+
+**Added**
+
+- Allow list view to show completed tasks.
+
+**Changed**
+
+- increase show completed tasks range option from 3 years to 5 years.
+
+## [1.18.0] - 2025-11-15
 
 🔑 **Key Update**: Group by Assignee,Tags,Priority
 
