@@ -1,5 +1,7 @@
 ## Rough Track (Self Hosting)
 
+![preview screenshot](./preview.png)
+
 RoughTrack is a prototype for creating **Now-Next-Later roadmaps** helping teams prioritize tasks and communicate priorities effectively with stakeholders.
 
 - [Support](#support)
