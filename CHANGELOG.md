@@ -5,6 +5,16 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.20.0] - 2026-01-07
+
+**Added**
+
+- Allow in progress icon for NOW tasks in timeline view
+
+**Fixed**
+
+- timeline view should use today's date when target end date is earlier than today.
+
 ## [1.19.0] - 2025-11-17
 
 **Added**
