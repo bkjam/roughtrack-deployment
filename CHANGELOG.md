@@ -5,6 +5,12 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.21.0] - 2026-01-09
+
+**Changed / Improved**
+
+- Updated **timeline error bars** to be more detailed and informative.
+
 ## [1.20.0] - 2026-01-07
 
 **Added**
