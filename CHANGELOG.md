@@ -5,6 +5,13 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.21.1] - 2026-01-12
+
+**Fixed**
+
+- Timeline **group-by redirect**: now redirects to Category View when grouping by category (other groupings remain unchanged).
+- Added **negate filter** option for Category and Tags.
+
 ## [1.21.0] - 2026-01-09
 
 **Changed / Improved**
