@@ -5,6 +5,14 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.22.0] - 2026-01-13
+
+🔑 **Key Update**: Filter by whether task is completed
+
+**Added**
+
+- Added new filter by **completed** field.
+
 ## [1.21.1] - 2026-01-12
 
 **Fixed**
