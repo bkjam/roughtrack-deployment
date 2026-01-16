@@ -5,6 +5,16 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.22.1] - 2026-01-16
+
+**Changed / Improved**
+
+- Updated **timeline error bars** to be more detailed and informative.
+
+**Fixed**
+
+- Able to delete roadmap with categories
+
 ## [1.22.0] - 2026-01-13
 
 🔑 **Key Update**: Filter by whether task is completed
