@@ -5,6 +5,23 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.23.0] - 2026-02-27
+
+**Changed / Improved**
+
+- Task details now display dates in **dd MMM YY** format.
+- **List view** enhancements:
+  - Show **Start Date** for _NOW_ tasks, **Target Start Date** for _NEXT_ tasks, and **Completed Date** for completed tasks.
+  - Sort tasks by **Column ID → Dates → Title** (previously only Column ID and Title).
+- **History Release View** increased to show **25 items** instead of 5.
+- Removed **Tracking View** and merged it into **Beta / Planning View**.
+- Updated **History View** for better clarity and usability.
+
+**Fixed**
+
+- Timeline bars now end at **Completed Date** instead of today’s date.
+- Fixed **scrolling issues** on the Docs page.
+
 ## [1.22.1] - 2026-01-16
 
 **Changed / Improved**
