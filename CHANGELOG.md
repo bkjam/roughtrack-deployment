@@ -21,6 +21,7 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 - Timeline bars now end at **Completed Date** instead of today’s date.
 - Fixed **scrolling issues** on the Docs page.
+- Fixed **task error visualization** for List View
 
 ## [1.22.1] - 2026-01-16
 
