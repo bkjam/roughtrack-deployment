@@ -23,6 +23,8 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - Fixed **scrolling issues** on the Docs page.
 - Fixed **task error visualization** for List View.
 - Fixed **completed task checkbox** should be on the right for **same day start & completed date**.
+- Added validation for NOW tasks such that **completed date** cannot be earlier than **start date**.
+- Added validation for NEXT tasks such that **target end date** cannot be earlier than **target start date**.
 
 ## [1.22.1] - 2026-01-16
 
