@@ -16,6 +16,8 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - **History Release View** increased to show **25 items** instead of 5.
 - Removed **Tracking View** and merged it into **Beta / Planning View**.
 - Updated **History View** for better clarity and usability.
+- Updated **Timeline View** visual to use play icon instead of clock3 icon.
+- Updated **Deck View** visual to always expand the tasks on first load instead of collapsing them.
 
 **Fixed**
 
