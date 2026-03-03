@@ -5,6 +5,18 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.24.0] - 2026-03-03
+
+**Changed / Improved**
+
+- **Negate Tag Filter**: Previously, tasks with multiple tags would disappear when one tag was negated. Now only tasks containing **only the negated tag** are hidden.
+- Updated **Deck, List, and Timeline views** to properly hide tasks with the negated tag filter applied.
+- Category form modal now indicates **text color** on top of the category label for better visibility.
+
+**Fixed**
+
+- Timeline column headers now handle **long category names** correctly, preventing overflow based on dynamic bar height and task card headers.
+
 ## [1.23.0] - 2026-02-27
 
 **Changed / Improved**
