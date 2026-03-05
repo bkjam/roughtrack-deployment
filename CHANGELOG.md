@@ -5,6 +5,16 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.25.0] - 2026-03-05
+
+**Added**
+
+- **Typeahead input** for tags to make it easier to search and select existing tags.
+
+**Fixed**
+
+- Timeline bars now correctly use the appropriate date for tasks in the **Next** stage (previously used Start Date).
+
 ## [1.24.0] - 2026-03-03
 
 **Changed / Improved**
