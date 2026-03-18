@@ -5,6 +5,18 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.26.0] - 2026-03-18
+
+**Added**
+
+- **Typeahead input suggestions** for assignees.
+- **Confirm dialog** when deleting a category.
+
+**Fixed**
+
+- Typeahead suggestions now correctly filter when resetting.
+- Timeline now properly shows tag suggestions.
+
 ## [1.25.0] - 2026-03-05
 
 **Added**
