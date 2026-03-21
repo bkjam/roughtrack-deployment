@@ -5,6 +5,22 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.27.0] - 2026-03-15
+
+**Changed / Improved**
+
+- Updated **Category View**: replaced the Completed group with an **Archive** group.
+- Timeline improvements:
+  - **Today’s line** now rendered behind task bars.
+  - Error tasks default to **today’s date**.
+  - Corrected sorting of timeline bars:
+    - _NOW_ tasks use **Start Date**.
+    - _NEXT_ tasks use **Target Start Date**.
+
+**Fixed**
+
+- Toast notifications for task creation now correctly indicate the task’s **NOW / NEXT / LATER** stage instead of always showing LATER.
+
 ## [1.26.0] - 2026-03-18
 
 **Added**
