@@ -5,6 +5,18 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.28.0] - 2026-03-20
+
+🔑 **Key Update**: Enhanced filtering capabilities across Category and Timeline views.
+
+**Added**
+- **Task filtering** in Category View.
+- **Filter by Assignee**.
+- Timeline filter for **NOW, NEXT, or BOTH** tasks.
+
+**Changed / Improved**
+- Moved **Category View** from Experimental to **Planning group**.
+
 ## [1.27.0] - 2026-03-15
 
 **Changed / Improved**
