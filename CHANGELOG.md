@@ -5,6 +5,23 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.29.0] - 2026-03-31
+
+🔑 **Key Update**: Improved task selection, filtering, and timeline control.
+
+**Added**
+
+- Exact match filtering using `=` and `!=` for **tags, assignees, and categories**.
+- **Selection box** for timeline bars when a task is selected.
+- **Highlight bar** for list views when a task is selected.
+- Option to view **closed/completed tasks** up to 100 years.
+- Refactored: introduced `useFilteredRoadmapTasks` hook for task filtering logic.
+
+**Changed / Improved**
+
+- Removed **Category View**; clicking on a category now routes to **Timeline/List View**.
+- Removed **Sort menu** from Deck View.
+
 ## [1.28.0] - 2026-03-27
 
 🔑 **Key Update**: Enhanced filtering capabilities across Category and Timeline views.
