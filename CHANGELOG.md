@@ -5,6 +5,29 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.30.0] - 2026-04-04
+
+🔑 **Key Update**: Introduced bulk editing, session password persistence, and enhanced list/timeline interactions.
+
+**Added**
+
+- **Bulk edit**: rename or remove **tags and assignees**.
+- **Session password saving**: no need to unlock roadmap after navigating elsewhere.
+- **Duplicate task** feature.
+- **Routing timeline groups** (assignee, priority, tags) to List View with filters applied.
+- **Edit and Delete buttons** in List View during edit mode for quick access.
+
+**Changed / Improved**
+
+- List View display updates:
+  - **Category** moved to the front of each task row.
+  - Show **Assessment Status label** as “Assessment” instead of “Status”.
+- Fixed **Timeline start & end date calculation** bug.
+
+**Removed**
+
+- Dropped support for the **SQLite variant**.
+
 ## [1.29.0] - 2026-03-31
 
 🔑 **Key Update**: Improved task selection, filtering, and timeline control.

@@ -23,7 +23,7 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 
 Below are the most updated versions that you should use for minimal bugs and latest features.
 
-- **1.29.0** & **1.29.0-lite**: Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
+- **1.30.0** & **1.29.0-lite** (sqlite version will no longer be updated): Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
@@ -50,6 +50,8 @@ By default, the main versions comes integrated with **Postgreqsql**, but you can
 ### RoughTrack + Sqlite
 
 > Note that for the `DATABASE_URL`, database path must be a **absolute path** with a `file://` prefix.
+
+> Note that sqlite version is no longer updated from 1.29.0-lite version onwards
 
 1. using **docker compose**
 
