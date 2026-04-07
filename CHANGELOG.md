@@ -5,6 +5,24 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.31.0] - 2026-08-04
+
+🔑 **Key Update**: Enhanced task filtering and improved List View interactions.
+
+**Added**
+
+- **Filter tasks** by **effective start and end date**.
+
+**Changed / Improved**
+
+- Change **Close & Reopen buttons** to **text buttons**.
+
+**Fixed**
+
+- Duplicated tasks are **no longer closed by default**.
+- **Stop viewing modal** properly in List View.
+- Ensure **section dropdown labels** are always ordered **NOW, NEXT, LATER**.
+
 ## [1.30.0] - 2026-04-04
 
 🔑 **Key Update**: Introduced bulk editing, session password persistence, and enhanced list/timeline interactions.
