@@ -5,6 +5,19 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.32.0] - 2026-08-04
+
+🔑 **Key Update**: Improved task filtering and enhanced task creation/edit notifications.
+
+**Changed / Improved**
+
+- **Edit Task Form**: repositioned **Now/Next/Later toggle** for better UX.
+- Enhanced **toast notifications** for creating/editing tasks: click on task ID to open the task.
+
+**Fixed**
+
+- Bug where **filtering was disabled** in **List, Deck, and Timeline views**.
+
 ## [1.31.0] - 2026-08-04
 
 🔑 **Key Update**: Enhanced task filtering and improved List View interactions.
