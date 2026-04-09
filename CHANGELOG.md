@@ -5,6 +5,20 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.33.0] - 2026-09-04
+
+🔑 **Key Update**: Introduced hidden tasks and improved filtering across views.
+
+**Added**
+
+- **`isHidden` task** feature.
+
+**Fixed**
+
+- Filtering by **category & assignee** now correctly shows the filtered grouping.
+- Added **extra month buffer** for Timeline view.
+- Bug with **`setUrlParams`** breaking links on Docs page fixed.
+
 ## [1.32.0] - 2026-08-04
 
 🔑 **Key Update**: Improved task filtering and enhanced task creation/edit notifications.
