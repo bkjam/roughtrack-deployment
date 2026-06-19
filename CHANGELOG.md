@@ -5,6 +5,16 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.34.0] - 2026-06-20
+
+**Changed / Improved**
+
+- Made **header and footer action buttons** in Create/Edit Task form **sticky** for better usability.
+- Updated **timeline visualization**:
+  - Shows **warnings instead of error bars** for stale tasks.
+  - _NEXT_ tasks with target start date < today are flagged as warnings.
+  - _NOW_ tasks with future start dates are also flagged as warnings.
+
 ## [1.33.0] - 2026-09-04
 
 🔑 **Key Update**: Introduced hidden tasks and improved filtering across views.
