@@ -5,6 +5,23 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.35.0] - 2026-07-11
+
+🔑 **Key Update**: Introduced task pausing support and improved timeline and form visualization.
+
+**Added**
+
+- Added **`nowDateSegment`** to support pausing tasks.
+
+**Changed / Improved**
+
+- Updated **roadmap task form visualization** for better clarity and usability.
+- Improved **timeline grid visualization** for more consistent layout.
+
+**Fixed**
+
+- Fixed security issue where users could **access tasks from another roadmap via URL manipulation**.
+
 ## [1.34.0] - 2026-06-20
 
 **Changed / Improved**
