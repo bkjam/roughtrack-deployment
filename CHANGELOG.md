@@ -5,6 +5,19 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.36.0] - 2026-08-21
+
+🔑 **Key Update**: Introduced planning phases with an expandable phase-based timeline.
+
+**Added**
+
+- Added **Phases** field for defining planning phases.
+- Added **expandable phases** to the Timeline view.
+
+**Changed / Improved**
+
+- Timeline grid now dynamically expands to display **planning phases** and their associated tasks.
+
 ## [1.35.0] - 2026-07-11
 
 🔑 **Key Update**: Introduced task pausing support and improved timeline and form visualization.
