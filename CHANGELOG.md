@@ -5,6 +5,31 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.37.0] - 2026-08-23
+
+🔑 **Key Update**: Enhanced roadmap authorization, task visibility, and Timeline customization.
+
+**Added**
+
+- Added **Roadmap Status** with **Active** and **Unmaintained** states.
+- Added **Roadmap Authorization** using an admin password.
+- Added **Task Visibility Default** preference to customize the default visibility of newly created tasks.
+- Added **Tips & Tricks** section to the Docs page.
+- Added **task count by category** when opening the Category dialog.
+- Added **right-click context menu** for tasks.
+- Added **Timeline Size Stepper** to adjust the width and height of timeline bars.
+- Added a **completed icon** for phases with an end date.
+
+**Changed / Improved**
+
+- Updated `document.title` dynamically based on the current page/roadmap for better identification when copying or pasting URLs.
+- Improved scrolling behavior across different roadmap views.
+
+**Fixed**
+
+- Fixed Timeline warning icons overlapping with the grid when a task's target start date is a few days before today.
+- Fixed Timeline phases not appearing for **NEXT** tasks.
+
 ## [1.36.0] - 2026-08-21
 
 🔑 **Key Update**: Introduced planning phases with an expandable phase-based timeline.
