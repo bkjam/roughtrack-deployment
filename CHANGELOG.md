@@ -5,6 +5,21 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.38.0] - 2026-08-25
+
+**Added**
+
+- Enhanced the **Tips & Tricks** section on the Docs page with visualizations.
+- Added a **bottom spacer** to the Timeline view so tasks at the bottom can be scrolled into a more comfortable viewing position.
+- Added an explicit **`isCompleted`** field for phases instead of using `endDate` as the completion indicator.
+
+**Changed / Improved**
+
+- Enhanced **Timeline phase visualization**:
+  - Added error state display for phases.
+  - When grouping by **Assignee**, phases belonging to other assignees are now faded instead of hidden, providing better context.
+- Updated phase completion logic to use the new **`isCompleted`** field.
+
 ## [1.37.0] - 2026-08-23
 
 🔑 **Key Update**: Enhanced roadmap authorization, task visibility, and Timeline customization.
