@@ -5,6 +5,13 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.39.0] - 2026-08-26
+
+**Added**
+
+- Added **assignee badge** to Timeline task bars for easier identification.
+- Updated **History View** to use a **paginated List View** layout for improved navigation and readability.
+
 ## [1.38.0] - 2026-08-25
 
 **Added**
