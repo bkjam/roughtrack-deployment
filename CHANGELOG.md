@@ -5,6 +5,17 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.40.0] - 2026-08-26
+
+**Added**
+
+- Added **Timeline Badge** to timeline task bars for additional task information.
+
+**Changed / Improved**
+
+- Updated the **Today line** to always appear in front of timeline bars.
+- Added a **Today** label to the timeline for easier date reference.
+
 ## [1.39.0] - 2026-08-26
 
 **Added**
