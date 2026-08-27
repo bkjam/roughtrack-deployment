@@ -5,6 +5,20 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.41.0] - 2026-08-28
+
+**Changed / Improved**
+
+- Reduced **Timeline Badge** character limit to **16 characters**.
+- Timeline task titles now automatically display on the **left side of the bar** when the bar is too short to show the title clearly.
+
+**Fixed**
+
+- Fixed **Today label** not remaining sticky when scrolling vertically in Timeline view.
+- Fixed Task Card hover styling where scaling could cause the card borders to be clipped.
+- Fixed **Duplicate Task** failing when `timelineBadge` is `null`.
+- Fixed **Update Task** failing when `timelineBadge` is `null`.
+
 ## [1.40.0] - 2026-08-26
 
 **Added**
