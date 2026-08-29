@@ -5,6 +5,29 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.42.0] - 2026-08-30
+
+🔑 **Key Update**: Introduced **MCP Server support**, token-based roadmap authorization, and team assignment for tasks.
+
+**Added**
+
+- Added **MCP Server** support for programmatic roadmap access and management.
+- Added new **`assignedTeams`** field for assigning tasks to teams.
+- Added **Deferred** and **Completed** banners to Task Cards for clearer closed-task status.
+- Backend API now generates the available **Tags** and **Assignees** lists.
+
+**Changed / Improved**
+
+- Replaced sending the roadmap password with every request with **JWT-based authorization tokens**.
+- **Hidden tasks** are no longer returned by the API when a roadmap is locked.
+- Updated validation for **`nowDateSegments`** and **Phases** so an end date is no longer required when marked as completed.
+- Improved Deck View Task Card performance by replacing the hover **scale effect** with a **yellow highlight ring**.
+
+**Fixed**
+
+- Fixed `phases.isCompleted` not being submitted to the backend.
+- Fixed laggy Task Card interactions in **Deck View**.
+
 ## [1.41.0] - 2026-08-28
 
 **Changed / Improved**
