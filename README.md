@@ -24,6 +24,7 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 Below are the most updated versions that you should use for minimal bugs and latest features.
 
 - **1.42.0** & **1.29.0-lite** (sqlite version will no longer be updated): Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
+- **2.0.0**: Version 2 is a prototype release with oidc & trusted-header for user membership that replace the password lock in v1.
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
@@ -55,10 +56,10 @@ By default, the main versions comes integrated with **Postgreqsql**, but you can
 
 1. using **docker compose**
 
-   Using the sample [docker-compose-lite.yml](./docker-compose-lite.yml) file, run the command:
+   Using the sample [docker-compose-v1-lite.yml](./docker-compose-v1-lite.yml) file, run the command:
 
    ```bash
-   docker compose -f docker-compose-lite.yml up -d
+   docker compose -f docker-compose-v1-lite.yml up -d
    ```
 
 2. using **helm chart**

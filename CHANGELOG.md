@@ -5,6 +5,26 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.0.0] - 2026-09-02
+
+🔑 **Key Update**: Replaced password-based roadmap access with **user authentication and roadmap membership**, introducing a new authorization model for RoughTrack.
+
+**Added**
+
+- Added **roadmap membership** for managing user access to roadmaps.
+- Added support for two authentication modes:
+  - **OIDC**, including integration with providers such as Keycloak.
+  - **Trusted Header Authentication** using `X-User-Id`, `X-User-Name`, and `X-User-Role`.
+- Added Embed URL support for displaying roadmaps within an `iframe`.
+
+**Changed / Improved**
+
+- Roadmap access and permissions are now determined by **user identity and membership** instead of a shared roadmap password.
+
+**Removed**
+
+- Removed **password-locked roadmaps** and the previous password-based authorization flow.
+
 ## [1.42.0] - 2026-08-30
 
 🔑 **Key Update**: Introduced **MCP Server support**, token-based roadmap authorization, and team assignment for tasks.
