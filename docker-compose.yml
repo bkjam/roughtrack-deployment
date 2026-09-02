@@ -36,10 +36,12 @@ services:
   # Main App
   roughtrack:
     container_name: roughtrack
-    image: bkjam/roughtrack:2.0.0
+    image: bkjam/roughtrack:2.1.0
     environment:
       DATABASE_URL: "postgresql://admin:password@postgres:5432/mydb?schema=public"
-      ADMIN_PASSWORD: "password"
+      AUTH_MODE: "trusted-header"
+      SESSION_COOKIE_SECRET: "change-me-to-a-random-secret"
+      LOG_LEVEL: "info"
     ports:
       - "8080:8080"
     networks:

@@ -5,6 +5,24 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.1.0] - 2026-09-02
+
+**Added**
+
+- Added a clickable **Embed Link** to the share confirmation toast.
+- Added additional application logging to improve visibility in **container logs**.
+
+**Changed / Improved**
+
+- **Unmaintained roadmaps** are now read-only and their tasks can no longer be edited.
+- Updated the **Embed View** title banner to display the roadmap's **Unmaintained** status.
+- Updated the **Timeline header width controls** to hide adjustment buttons when they are not applicable.
+
+**Fixed**
+
+- Fixed the **Generate Token** roadmap selector not updating when a roadmap is created, deleted, or changes between **Active** and **Unmaintained** status.
+- Fixed task selection being lost after closing the Update Task dialog in **List**, **Rank**, and **History** views.
+
 ## [2.0.0] - 2026-09-02
 
 🔑 **Key Update**: Replaced password-based roadmap access with **user authentication and roadmap membership**, introducing a new authorization model for RoughTrack.
