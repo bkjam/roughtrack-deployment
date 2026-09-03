@@ -5,6 +5,22 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.2.0] - 2026-09-03
+
+**Added**
+
+- Added additional logging for **MCP tool calls** and **API errors**.
+- Added an environment flag to **disable health check request logging**.
+- Added an environment flag to enable **pretty-printed logs** for improved readability.
+
+**Changed / Improved**
+
+- Updated the **Generate Token** page with a clearer workflow and more detailed descriptions.
+
+**Fixed**
+
+- Fixed the **search bar text color** in the Admin User List dialog.
+
 ## [2.1.0] - 2026-09-02
 
 **Added**
