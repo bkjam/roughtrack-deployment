@@ -5,6 +5,25 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.3.0] - 2026-09-03
+
+**Added**
+
+- Added **Open**, **Completed**, and **Closed** task counts to the Category List dialog.
+- Added **adjustable Timeline bars** for modifying task dates directly from the Timeline view.
+
+**Changed / Improved**
+
+- Improved the **Roadmap View toggle** UI for clearer navigation between views.
+- Improved **toast notification** styling for better visibility.
+- Updated the **selected Task Card and Timeline bar** highlight colors for clearer visual feedback.
+- Updated text colors throughout the **Docs page** for better visual consistency.
+- Restricted **admin authorization bypass** for MCP tool calls.
+
+**Fixed**
+
+- Fixed **Assigned Teams** labels on Timeline bars not being left-aligned correctly.
+
 ## [2.2.0] - 2026-09-03
 
 **Added**
