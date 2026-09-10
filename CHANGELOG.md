@@ -5,7 +5,21 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
-## [2.3.0] - 2026-09-03
+## [2.4.0] - 2026-09-10
+
+🔑 **Key Update**: Introduced a dedicated **Backlog workflow** for better management and assessment of LATER tasks.
+
+**Added**
+
+- Added **`isBacklog`** to distinguish backlog items within the **LATER** stage.
+- Added a dedicated **Backlog View** for triaging and managing LATER tasks before they are ready for forward planning.
+
+**Changed / Improved**
+
+- Enhanced **Markdown** support with GitHub Flavored Markdown, including **strikethrough** and **task list checkboxes**.
+- Improved **MCP tool descriptions** for task fields that support Markdown content.
+
+## [2.3.0] - 2026-09-09
 
 **Added**
 
