@@ -5,6 +5,29 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.5.0] - 2026-09-12
+
+🔑 **Key Update**: Introduced **roadmap visibility controls** and expanded Timeline navigation with **zoom** and **weekly views**.
+
+**Added**
+
+- Added **Public / Private Roadmap Visibility** to control whether roadmap content can be accessed by non-members.
+- Added **Weekly Timeline View** as an alternative to the existing monthly view.
+- Added **Delete User** functionality for administrators.
+- Added dynamic `document.title` support for the **Generate Token**, **Docs**, and **Timeline Preview** pages.
+- Added a floating **Table of Contents** to the Docs page for easier navigation.
+
+**Changed / Improved**
+
+- Re-implemented **Timeline Zoom** and removed the previous Timeline size stepper.
+- Expanded the **Docs page** with additional information and guidance.
+- Updated the **Move Task** action to support moving tasks to **LATER (Backlog)**.
+- Improved transitions to **NOW**: when `startDate` is empty and `targetStartDate` exists, `targetStartDate` is automatically used as the task's start date.
+
+**Fixed**
+
+- Fixed **Assessment Status** not appearing when creating a new task.
+
 ## [2.4.0] - 2026-09-10
 
 🔑 **Key Update**: Introduced a dedicated **Backlog workflow** for better management and assessment of LATER tasks.
