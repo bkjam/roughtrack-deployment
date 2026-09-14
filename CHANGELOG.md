@@ -5,6 +5,21 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.6.0] - 2026-09-14
+
+🔑 **Key Update**: Improved roadmap preview and Timeline editing workflows with better organization and date snapping.
+
+**Added**
+
+- Added **Preview as Visitor** to preview a roadmap as it appears to non-members.
+- Added a dedicated **Timeline Metadata** section to the Edit Task form, grouping **Timeline Badge**, **NOW Segments**, and **Phases**.
+- Added a locked overlay to Timeline Metadata fields when the task is not in **NOW** or **NEXT**.
+
+**Changed / Improved**
+
+- **Backlog View** now shows all **LATER** tasks by default, including both backlog and confirmed LATER tasks.
+- Timeline date adjustments now **snap to the start or end of the month** when using the Monthly Timeline View.
+
 ## [2.5.0] - 2026-09-12
 
 🔑 **Key Update**: Introduced **roadmap visibility controls** and expanded Timeline navigation with **zoom** and **weekly views**.
