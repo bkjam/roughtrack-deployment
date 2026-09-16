@@ -5,6 +5,27 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.7.0] - 2026-09-17
+
+🔑 **Key Update**: Introduced **Quick Filters** for grouped views and **Category Archiving** for cleaner long-term roadmap management.
+
+**Added**
+
+- Added **Quick Filters** to grouped **Timeline** and **List** views for **Category**, **Tags**, **Assignee**, **Assigned Teams**, and **Priority**.
+  - Open the group context menu to quickly filter by the selected group.
+  - Include or exclude groups in a **staged filter** without immediately changing the current view.
+  - Apply staged filters when ready, making it easier to build multi-group filters.
+
+- Added **Category Archiving**, allowing categories to remain associated with existing tasks and history while being excluded from normal category selection.
+
+**Changed / Improved**
+
+- Made the **Deck View header sticky** so view controls remain accessible while scrolling.
+
+**Fixed**
+
+- Fixed the **Backlog** tag overflowing Task Cards in **List** and **Rank** views.
+
 ## [2.6.0] - 2026-09-14
 
 🔑 **Key Update**: Improved roadmap preview and Timeline editing workflows with better organization and date snapping.
