@@ -5,6 +5,27 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.46.0] - 2026-09-25
+
+🔑 **Key Update**: Improved task discovery and Backlog triage with **roadmap task search**, a new **Queued for Review** status, and enhanced Backlog grouping.
+
+**Added**
+
+- Added **Search Tasks** to quickly find tasks within a roadmap.
+- Added **Add All** actions for **Assignees** and **Assigned Teams** in the Add/Edit Task form.
+- Added a new **`QUEUED_FOR_REVIEW`** assessment status for backlog items that are ready to be reviewed.
+- Added **flip-to-fit positioning** for overlay context menus to keep them within the visible viewport.
+
+**Changed / Improved**
+
+- Enhanced **Backlog View** with grouping by **Assessment Status** or **Category**:
+  - When grouped by Assessment Status, tasks within each group are organized by Category.
+  - When grouped by Category, tasks within each group are organized by Assessment Status.
+
+**Fixed**
+
+- Fixed Timeline task ordering not remaining sequential when **Group By** is applied.
+
 ## [1.45.0] - 2026-09-17
 
 🔑 **Key Update**: Introduced **Quick Filters** for grouped views and **Category Archiving** for cleaner long-term roadmap management.
