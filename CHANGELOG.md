@@ -5,6 +5,26 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.9.0] - 2026-09-26
+
+🔑 **Key Update**: Added **Backup & Restore**, enhanced Markdown editing, and improved Timeline date adjustments with phase synchronization.
+
+**Added**
+
+- Added **Backup & Restore** support for restoring roadmap data into a fresh database.
+- Added a **Markdown Editor** with improved editing controls.
+- Pasted URLs are now automatically converted into **Markdown links**.
+- Added a **live overlay** when adjusting Timeline dates to preview changes to task dates and phases.
+
+**Changed / Improved**
+
+- `document.title` now includes the current **Roadmap View name** for easier identification of browser tabs and shared links.
+- Timeline date adjustments now also update associated **Phase dates**, keeping phases synchronized with task date changes.
+
+**Fixed**
+
+- Fixed an authorization issue where administrators could still view protected content when **View as Admin** was disabled.
+
 ## [2.8.0] - 2026-09-25
 
 🔑 **Key Update**: Improved task discovery and Backlog triage with **roadmap task search**, a new **Queued for Review** status, and enhanced Backlog grouping.

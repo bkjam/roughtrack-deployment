@@ -5,6 +5,26 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.47.0] - 2026-09-26
+
+🔑 **Key Update**: Enhanced **Markdown editing** and **Timeline date adjustments** with phase synchronization and live change previews.
+
+**Added**
+
+- Added a **Markdown Editor** with improved editing controls.
+- Pasted URLs are now automatically converted into **Markdown links**.
+- Added a **live overlay** when adjusting Timeline dates to preview changes to task dates and phases.
+
+**Changed / Improved**
+
+- `document.title` now includes the current **Roadmap View name** for easier identification of browser tabs and shared links.
+- Timeline date adjustments now also update associated **Phase dates**, keeping phases synchronized with task date changes.
+
+**Fixed**
+
+- Fixed **Backlog View grouping** not being applied correctly.
+- Fixed the Category list not refreshing after a **Category is deleted**.
+
 ## [1.46.0] - 2026-09-25
 
 🔑 **Key Update**: Improved task discovery and Backlog triage with **roadmap task search**, a new **Queued for Review** status, and enhanced Backlog grouping.
