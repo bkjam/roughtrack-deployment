@@ -5,6 +5,23 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.48.0] - 2026-09-30
+
+🔑 **Key Update**: Introduced **Timeline Snapshot Comparison** and expanded Timeline customization with group sorting and persistent display preferences.
+
+**Added**
+
+- Added **Timeline Snapshot Comparison** for comparing the current roadmap Timeline against a saved snapshot.
+- Added predefined **Small, Medium, and Large** width options for the Task Preview panel.
+- Added **Timeline group sorting** with two options:
+  - **Timeline Order** _(default)_ — groups are ordered by their earliest task start date.
+  - **Alphabetical** — groups are ordered alphabetically.
+- Added a **Clear Filters** button directly on the task filter control for quickly removing active filters.
+
+**Changed / Improved**
+
+- Timeline display preferences are now persisted in **local storage**, retaining the selected display options between sessions.
+
 ## [1.47.0] - 2026-09-26
 
 🔑 **Key Update**: Enhanced **Markdown editing** and **Timeline date adjustments** with phase synchronization and live change previews.

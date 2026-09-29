@@ -23,8 +23,8 @@ The currently deployed versions are available on [Docker Hub](https://hub.docker
 
 Below are the most updated versions that you should use for minimal bugs and latest features.
 
-- **1.47.0** & **1.29.0-lite** (sqlite version will no longer be updated): Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
-- **2.9.0**: Version 2 is a prototype release with oidc & trusted-header for user membership that replace the password lock in v1.
+- **1.48.0** & **1.29.0-lite** (sqlite version will no longer be updated): Version 1 is a prototype release for creating and sharing open roadmaps, with editing protected by password lock.
+- **2.10.0**: Version 2 is a prototype release with oidc & trusted-header for user membership that replace the password lock in v1.
 
 Refer to [CHANGELOG.md](./CHANGELOG.md) for more details on the difference.
 
@@ -66,23 +66,9 @@ By default, the main versions comes integrated with **Postgreqsql**, but you can
 
    To be updated...
 
-## Extra Features
+## Admin Notes
 
-### Reset Roadmap Password
-
-The Dockerized version of Rough Track is a prototype, so password locking for editing is implemented with simplicity in mind. If a user forgets their roadmap’s password, the only way to reset it is by sending an API request to the web server using the administrator password configured in the `.env` file at server startup.
-
-```bash
-curl -X POST localhost:8080/api/v1/admin/resetRoadmapPassword \
-    -H "Content-Type: application/json" \
-    -d '{"roadmapId": "4", "newPassword": "test", "adminPassword": "test"}'
-```
-
-**Notes**:
-
-- Replace "your-admin-password" with the actual admin password set in your .env.
-- This request will update the roadmap’s password and return the roadmap metadata (ID, title, created/updated timestamps).
-- Ensure the server is running and the endpoint is accessible over the network.
+Refer to [ADMIN_NOTES (v1)](./ADMIN_NOTES_V1.md) or [ADMIN_NOTES (v2)](./ADMIN_NOTES_V2.md).
 
 ## License & Disclaimer
 
