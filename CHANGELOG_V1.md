@@ -5,6 +5,35 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.49.0] - 2026-10-01
+
+🔑 **Key Update**: Simplified the **LATER workflow** by removing the separate Backlog concept, while expanding List View with quick task management actions.
+
+**Added**
+
+- Added **Quick Actions** to List View for updating:
+  - Priority
+  - Assignee
+  - Category
+  - Tags
+  - Stage
+- Added **Group by Stage** for organizing tasks by **NOW, NEXT, and LATER**.
+- Added a **Close button** to success and error dialogs shown after adjusting Timeline dates.
+
+**Changed / Improved**
+
+- Replaced the Timeline-specific `timelineBadge` with a generic **Badge** that can be used to flag tasks across views, including List View.
+- **LATER** is now a single task stage without a separate Backlog state or workflow.
+
+**Removed**
+
+- Removed the dedicated **Backlog View** and `isBacklog` concept.
+- Removed the **Category View**.
+
+**Fixed**
+
+- Fixed missing **toast notification** when deleting a Timeline Snapshot.
+
 ## [1.48.0] - 2026-09-30
 
 🔑 **Key Update**: Introduced **Timeline Snapshot Comparison** and expanded Timeline customization with group sorting and persistent display preferences.
