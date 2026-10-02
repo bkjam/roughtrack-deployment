@@ -5,6 +5,32 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.12.0] - 2026-10-02
+
+🔑 **Key Update**: Added **concurrent update safeguards** to prevent users from accidentally overwriting newer task changes, alongside improvements to task discovery, labels, filtering, and Timeline editing.
+
+**Added**
+
+- Added **`expectedUpdatedAt` checks** to prevent updates from overwriting newer task changes.
+- Added validation to prevent reserved characters (`!`, `,`, `*`, `=`) in label values such as **Badge, Category, Tags, Assignees, and Assigned Teams**.
+- Added **Sort by Badge** for tasks.
+- Added **Show All Tasks** when navigating from a Category.
+- Added **Locate Task** from the Search panel to quickly navigate to a selected task.
+- Added **Badge** to the Update Labels quick-action menu.
+- Added **Include / Exclude Badge Filter** actions to the Update Badge quick menu for quickly staging badge filters.
+
+**Changed / Improved**
+
+- Timeline date adjustment now provides an **end-date handle** even when a task does not currently have a `targetEndDate`.
+- Improved **Move Task** workflow to include moving tasks to the **Completed** stage.
+- Updated List View cards to indicate when **LATER tasks have target dates**.
+
+**Fixed**
+
+- Fixed task filters not supporting tasks with **no label values**, such as tasks with no Category, Assignee, Tags, or other labels.
+- Fixed Search panel results not refreshing after tasks are updated.
+- Fixed **LATER** being omitted from the Timeline View URL state.
+
 ## [2.11.0] - 2026-10-01
 
 🔑 **Key Update**: Simplified the **LATER workflow** by removing the separate Backlog concept, while expanding List View with quick task management actions.
