@@ -5,6 +5,31 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [1.51.0] - 2026-10-03
+
+🔑 **Key Update**: Expanded task discovery and filtering with a new **Filter Rule Builder**, enhanced search, and improved navigation directly to tasks.
+
+**Added**
+
+- Added **Sort By** options to **Deck** and **History** views.
+- Added a **Filter Rule Builder** to the Task Filter menu for building more flexible filtering rules.
+- Added **Search Within View**, allowing users to locate and navigate directly to matching tasks in the current view.
+- Added **search result highlighting** to make matching content easier to identify.
+- Added **Last 3 Months** and **Last 9 Months** options to **Show Completed**.
+- Added **Badge indicators** to Task Cards and the Task Form modal.
+- Added the selected **Task Title** to `document.title`.
+- Added a **NOW (Completed)** section when grouping tasks by Stage.
+
+**Changed / Improved**
+
+- Enhanced the **Move Task** modal to redirect to the Edit Task form when an error requires additional task changes.
+- Updated **History View** Task Cards to use the same layout and styling as **List View**.
+
+**Fixed**
+
+- Fixed the **Move Task** modal not displaying the task title.
+- Fixed reopened tasks not refreshing the task cache correctly.
+
 ## [1.50.0] - 2026-10-02
 
 🔑 **Key Update**: Added **concurrent update safeguards** to prevent users from accidentally overwriting newer task changes, alongside improvements to task discovery, labels, filtering, and Timeline editing.
