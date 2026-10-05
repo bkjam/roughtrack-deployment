@@ -5,6 +5,31 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.14.0] - 2026-10-06
+
+🔑 **Key Update**: Improved task filtering and label suggestions with **context-aware filters**, ranked suggestions, and roadmap member suggestions for assignees.
+
+**Added**
+
+- Added **Include / Exclude Filter** actions to the Task context menu for quickly filtering by a task's **Tags, Assignees, Assigned Teams, Category, or Task ID**.
+- Added roadmap **user/member list** to Assignee suggestions.
+- Added ranked suggestions for **Tags, Assignees, and Assigned Teams**, prioritizing:
+  - Frequently used values.
+  - Existing values within the roadmap.
+  - Roadmap users for Assignee suggestions.
+- Added **Show My Roadmaps** to the All Roadmaps view for quickly filtering to roadmaps associated with the current user.
+
+**Changed / Improved**
+
+- Improved **Task Card error and warning feedback**.
+- Updated `document.title` to show the **Task Title** only when a task-specific link is being viewed or shared.
+- Updated roadmap sorting so **Unmaintained** roadmaps appear after active roadmaps.
+
+**Fixed**
+
+- Fixed closed tasks incorrectly hiding applicable warning feedback.
+- Fixed **NOW** tasks without a `targetStartDate` displaying an unnecessary error intended for **NEXT** tasks.s
+
 ## [2.13.0] - 2026-10-03
 
 🔑 **Key Update**: Expanded task discovery and filtering with a new **Filter Rule Builder**, enhanced search, and improved navigation directly to tasks.
