@@ -5,6 +5,27 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.15.0] - 2026-10-07
+
+🔑 **Key Update**: Expanded **Task Context Menu** actions and improved management of unscheduled LATER tasks directly from the Timeline.
+
+**Added**
+
+- Added **multi-select label filters** for unscheduled **LATER** tasks in Timeline View, supporting **Category, Tags, Assignees, Assigned Teams, and Badge**.
+- Added **Update Labels**, **Stage**, and **Priority** submenus to the Task Context Menu.
+
+**Changed / Improved**
+
+- **Duplicate Task** now immediately selects the duplicated task and opens it in the Edit Task modal.
+- Simplified adding and removing **LATER** tasks from the Timeline by removing the additional confirmation dialog.
+- Capped **Assignee** and **Assigned Team** tag displays at **30 characters** to prevent excessively long labels.
+
+**Fixed**
+
+- Fixed **Exclude** filters for Tags, Assignees, and Assigned Teams incorrectly excluding tasks with no corresponding labels.
+- Fixed deleted tasks not refreshing the task cache.
+- Fixed **Bulk Edit Assignee** suggestions not including the roadmap user list.
+
 ## [2.14.0] - 2026-10-06
 
 🔑 **Key Update**: Improved task filtering and label suggestions with **context-aware filters**, ranked suggestions, and roadmap member suggestions for assignees.
