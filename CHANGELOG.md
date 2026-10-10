@@ -5,6 +5,16 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.16.0] - 2026-10-11
+
+🔑 **Key Update**: Enhanced **roadmap membership management** and user personalization with bulk member editing, preferred names, and last-modified tracking.
+
+**Added**
+
+- Added a **Bulk Edit Roadmap Members** page for managing roadmap memberships more efficiently.
+- Added **`lastModifiedBy`** to roadmaps to track the user who last updated a roadmap.
+- Added **Preferred Name** support, allowing users to customize their display name within the application.
+
 ## [2.15.0] - 2026-10-07
 
 🔑 **Key Update**: Expanded **Task Context Menu** actions and improved management of unscheduled LATER tasks directly from the Timeline.
