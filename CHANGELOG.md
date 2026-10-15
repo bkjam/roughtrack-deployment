@@ -5,6 +5,28 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.17.0] - 2026-10-16
+
+🔑 **Key Update**: Introduced **Saved Filters** for reusable task filtering and improved Timeline navigation, context menus, and task preview interactions.
+
+**Added**
+
+- Added **Saved Filters**, allowing users to save and reuse task filter configurations.
+- Made the **User List** accessible to all users.
+- Added the ability to **collapse and expand the right-side Task Preview panel**.
+
+**Changed / Improved**
+
+- Updated the **Task Context Menu** to open submenus on hover.
+- Updated **Timeline bars** to expand only when clicking the chevron, preventing accidental expansion when selecting a task.
+- Updated `document.title` to display the **RoughTrack brand name at the end**.
+- Improved the **Timeline Zoom** interface to display the correct `+` and `−` controls.
+
+**Fixed**
+
+- Fixed **Search Tasks** being visible when users do not have access to a private roadmap.
+- Fixed vertical scrolling in the **Timeline title column** not synchronizing with the Timeline grid.
+
 ## [2.16.0] - 2026-10-11
 
 🔑 **Key Update**: Enhanced **roadmap membership management** and user personalization with bulk member editing, preferred names, and last-modified tracking.
