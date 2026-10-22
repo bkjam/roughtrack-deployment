@@ -5,6 +5,28 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.18.0] - 2026-10-23
+
+🔑 **Key Update**: Introduced **real-time roadmap updates via SSE** and a new **Timeline Phase View** for displaying task phases as individual Timeline bars.
+
+**Added**
+
+- Added **Server-Sent Events (SSE)** to notify users of live roadmap updates.
+- Added a new **Timeline Phase View**, allowing task phases to be displayed as individual Timeline bars instead of only within expanded task bars.
+- Added **Quick Date Editing** in List View, allowing users to click task date fields to open a date update dialog.
+- Added **Locate Task** to task update toast notifications, allowing users to quickly return to a task after making changes.
+- Added **Create Category** directly within the Task Form's Category selector.
+
+**Changed / Improved**
+
+- Updated the **Unscheduled LATER Tasks** panel in Timeline View to be accessible to all users, rather than only roadmap maintainers.
+- Improved the **Badge Editor** to provide clearer visual feedback when removing a badge.
+
+**Fixed**
+
+- Fixed entering **Timeline Adjust Mode** unexpectedly jumping to today's date instead of preserving the current scroll position.
+- Fixed tasks with a `completedDate` failing to move to **NOW**, **NEXT**, or **LATER** because the completion date was not cleared.
+
 ## [2.17.0] - 2026-10-16
 
 🔑 **Key Update**: Introduced **Saved Filters** for reusable task filtering and improved Timeline navigation, context menus, and task preview interactions.
