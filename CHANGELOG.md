@@ -5,6 +5,29 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.19.0] - 2026-10-27
+
+🔑 **Key Update**: Improved **SSE live update notifications**, Category management, and Timeline phase validation feedback.
+
+**Added**
+
+- Added **Search by User ID** to make it easier to find specific users.
+- Added **Task URLs** to MCP tool responses for direct navigation to tasks.
+- Added **validation warning icons** to Timeline Phase bars, consistent with the main Timeline task bars.
+
+**Changed / Improved**
+
+- Enhanced the **Category Management** dialog:
+  - Updated task counts to show **Done, NOW, NEXT, LATER, and Archive** instead of Open, Completed, and Archived totals.
+  - Added a **blocking overlay** while editing a category to prevent conflicting interactions.
+- Improved **SSE live update notifications**:
+  - The connection warning banner now appears only after SSE reconnection attempts have failed for an extended period.
+  - Prevented unnecessary update banners when returning to a browser tab that originally made the task update.
+
+**Fixed**
+
+- Fixed MCP tool requests encountering errors due to rejected fields.
+
 ## [2.18.0] - 2026-10-23
 
 🔑 **Key Update**: Introduced **real-time roadmap updates via SSE** and a new **Timeline Phase View** for displaying task phases as individual Timeline bars.
