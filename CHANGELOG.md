@@ -5,6 +5,29 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.20.0] - 2026-10-28
+
+🔑 **Key Update**: Enhanced **Saved Filters** with load and update capabilities, alongside improvements to Timeline Phase bars and task management workflows.
+
+**Added**
+
+- Added **Tag lists** to Task Cards in **List** and **History** views.
+- Enhanced **Saved Filters** with the ability to **load and update** existing filter configurations.
+
+**Changed / Improved**
+
+- **Deck View** now displays expanded Task Cards by default.
+- Improved **Timeline Phase bars** to display both the **Task Title** and **Phase Title** for clearer identification.
+
+**Fixed**
+
+- Fixed **Badges** overlapping text in Timeline Phase bars.
+- Fixed inaccurate **live update banner** notifications.
+- Fixed **Bulk Rename Tag** not preserving the selected tag color in the UI.
+- Fixed **Category Name and Color** not being highlighted correctly.
+- Fixed **Move Task** and **Update Labels** actions being hidden for closed tasks.
+- Fixed the **Display Menu** preventing other overlays from closing properly.
+
 ## [2.19.0] - 2026-10-27
 
 🔑 **Key Update**: Improved **SSE live update notifications**, Category management, and Timeline phase validation feedback.
