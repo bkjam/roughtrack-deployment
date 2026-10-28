@@ -5,6 +5,21 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.21.0] - 2026-10-29
+
+🔑 **Key Update**: Introduced **Recent Activities** for tracking roadmap changes and expanded MCP capabilities with **Saved Filter tools** and task filtering.
+
+**Added**
+
+- Added **Recent Activities** to provide visibility into roadmap changes.
+- Added **Saved Filter MCP tools** for managing and using saved task filters programmatically.
+- Added **filtering options** to the MCP List Roadmap Tasks tool.
+
+**Changed / Improved**
+
+- Updated the **RoughTrack documentation** with more comprehensive information about available features.
+- Improved **Assignee badge positioning** in Timeline Phase bars for better readability.
+
 ## [2.20.0] - 2026-10-28
 
 🔑 **Key Update**: Enhanced **Saved Filters** with load and update capabilities, alongside improvements to Timeline Phase bars and task management workflows.
