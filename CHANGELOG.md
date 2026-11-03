@@ -5,6 +5,27 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.22.0] - 2026-11-04
+
+🔑 **Key Update**: Introduced **Roadmap Events** for Timeline planning and **Offline HTML Export** for sharing and viewing roadmaps without an internet connection.
+
+**Added**
+
+- Added **Roadmap Events** to the Timeline View for tracking important milestones and events that affect roadmap tasks.
+- Added **Export Timeline as HTML**, allowing users to save and view the Timeline as a standalone HTML file for offline access and sharing.
+
+**Changed / Improved**
+
+- Updated the **More** menu in the Roadmap View toggle to open on hover instead of requiring a click.
+
+**Removed**
+
+- Removed the **Rank View** to simplify roadmap navigation.
+
+**Fixed**
+
+- Fixed **Timeline Phase badges** appearing at the start of the main task bar instead of the corresponding phase bar.
+
 ## [2.21.0] - 2026-10-29
 
 🔑 **Key Update**: Introduced **Recent Activities** for tracking roadmap changes and expanded MCP capabilities with **Saved Filter tools** and task filtering.
