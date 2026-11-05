@@ -5,6 +5,28 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.23.0] - 2026-11-06
+
+🔑 **Key Update**: Introduced **Bulk Task Editing**, **Multi-Task Creation**, and **multi-select Timeline adjustments** to streamline roadmap management.
+
+**Added**
+
+- Added a dedicated **Bulk Edit Tasks View** for managing and updating multiple tasks more efficiently.
+- Added a **Create Multiple Tasks** modal for quickly creating several tasks at once.
+- Added **box selection and multi-select** for Timeline bars in Adjust Mode, allowing multiple tasks to be selected for date adjustments.
+- Added **Phase support for LATER tasks**, enabling more detailed planning before tasks move to NEXT or NOW.
+- Added a new **Viewer role** for private roadmaps, providing read-only access to roadmap content.
+- Added **split buttons** for Categories and Add Task, providing quick access to primary actions and related management options.
+
+**Changed / Improved**
+
+- Replaced the **Play icon** on NOW task Timeline bars with a **Chevron** for more consistent expand/collapse interactions.
+
+**Fixed**
+
+- Fixed an authorization issue where roadmap **Members** could not view hidden tasks.
+- Fixed missing validation for **Task and Phase Assignees**, ensuring phase assignees are included in the task's assignee list.
+
 ## [2.22.0] - 2026-11-04
 
 🔑 **Key Update**: Introduced **Roadmap Events** for Timeline planning and **Offline HTML Export** for sharing and viewing roadmaps without an internet connection.
