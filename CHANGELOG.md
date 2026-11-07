@@ -5,6 +5,24 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.24.0] - 2026-11-07
+
+🔑 **Key Update**: Introduced **Generate Summary**, a customizable editor for creating roadmap summary pages, alongside improvements to bulk editing and Timeline interactions.
+
+**Added**
+
+- Added **Generate Summary**, featuring a customizable editor for creating and generating roadmap summary pages.
+
+**Changed / Improved**
+
+- Standardized the **Quick Update Labels** menu so **Category** and **Badge** changes follow the same save behavior as **Tags**, **Assignees**, and **Assigned Teams**.
+- Updated the **Timeline Display Menu** to allow switching between nested and individual Timeline bars while in **Adjust Mode**.
+- Improved **Recent Activities** handling for roadmap events.
+
+**Fixed**
+
+- Fixed an issue in the **Bulk Edit Tasks** view where users could not apply changes after correcting validation errors.
+
 ## [2.23.0] - 2026-11-06
 
 🔑 **Key Update**: Introduced **Bulk Task Editing**, **Multi-Task Creation**, and **multi-select Timeline adjustments** to streamline roadmap management.
