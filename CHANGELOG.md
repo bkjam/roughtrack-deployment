@@ -5,6 +5,25 @@ This format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ---
 
+## [2.25.0] - 2026-11-14
+
+🔑 **Key Update**: Enhanced **Timeline Phase management** with improved highlighting, descriptions, assignee support, and sorting.
+
+**Added**
+
+- Added **Phase Description** for providing additional context to individual task phases.
+- Added support for **comma-separated Assignees** in task phases.
+- Added **Phase Sorting** for organizing task phases.
+
+**Changed / Improved**
+
+- Clicking a **Timeline Phase bar** now highlights the selected phase for clearer visual feedback.
+- Improved **Task Card error feedback** by displaying validation messages inline within their respective sections.
+
+**Fixed**
+
+- Fixed an issue where **Saved Filters** were not visible to all users.
+
 ## [2.24.0] - 2026-11-07
 
 🔑 **Key Update**: Introduced **Generate Summary**, a customizable editor for creating roadmap summary pages, alongside improvements to bulk editing and Timeline interactions.
